@@ -1,2 +1,6 @@
 print("Hello world")
 print("Carl bana?")
+first_number =input("Enter the first number: ")
+second_number =input("Enter the second number: ")
+total= float(first_number) + float(second_number) 
+print(f"Total: ",total)
