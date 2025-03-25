@@ -52,26 +52,51 @@
         </table>
         <form>
             <div>
-                <label for="fname">Firstname: </label>
-                <input type="text" id="fname" name="fname">
+                <label for="fname">Name: </label>
+                <input type="text" id="fname" name="fname" placeholder="Enter your Name" required>
             </div>
             <br>
             <div>
-                <label for="lname">Lastname:</label>
-                <input type="text" id="lname" name="lname">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="example@gmail.com" required>
             </div>
             <br>
             <div>
-                <label for="age">Age:</label>
-                <input type="number" id="age" name="age">
+                <label for="Password">Password:</label>
+                <input type="password" id="pass" name="pass" maxlength="8" required>
             </div>
             <br>
             <div>
-                <input type="submit">
+                <label for="submit">Submit:</label>
+                <input type="submit" id="submit">
             </div>
             <br>
             <div>
-                <input type="reset">
+                <label for="reset">Reset</label>
+                <input type="reset" id="reset">
+            </div>
+            <div>
+                <label for="bdate">Birthday</label>
+                <input type="date" id="date" name="date">
+            </div>
+            <br>
+            <div>
+                <label for="title">Title:</label>
+
+                <label for="Mr.">Mr</label>
+                <input type="radio" id="title" name="Mr">
+
+                <label for="Mrs.">Mrs.</label>
+                <input type="radio" id="title" name="Mrs.">
+            </div>
+            <br>
+            <p>Have you joined click the appropriate checkbox below:</p>
+            <div>
+                <label for="Joined">Yes</label>
+                <input type="checkbox" id="Joined" name="Joined">
+
+                <label for="Not joined">No</label>
+                <input type="checkbox" id="Not joined" name="Noy joined">
             </div>
         </form>
     </body>
