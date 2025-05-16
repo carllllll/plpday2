@@ -1,0 +1,9 @@
+#style-paragraph {
+  color: black;
+  font-size: 16px;
+}
+.highlight {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
